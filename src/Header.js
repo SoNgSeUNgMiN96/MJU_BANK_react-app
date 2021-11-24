@@ -4,42 +4,31 @@ import './App.css';
 
 function Header() {
 
-    const accountClick= () =>{
-  
-    }
-    const cardClick= () =>{
-  
-    }
-    const createIdClick = () =>{
-
-    }
-
-    const loginClick = () =>{
-        return (
-            <h1>test</h1>
-        );
-    }
+    
   
     return (
           <div className = "header">
             <img src={mjuLogo} className="mjuLogof" alt="mjuLogod" />
             <h1 className="mjuMain"> 명지은행</h1>
           
-            <button className = "account_result" onClick={accountClick}>
-              계좌
+            <button className = "account_result" >
+              <Link to="/">Home</Link>
+            </button>
+
+            <button className = "account_result" >
+              <Link to="/account">계좌</Link>
             </button>
   
-            <button className = "card_result" onClick={cardClick}>
-              카드
+            <button className = "card_result" >
+              <Link to="/card">카드</Link>
             </button>
   
             
-            <button className = "createId" onClick={createIdClick}>
-              회원가입
+            <button className = "createId">
+              <Link to="/createId">회원가입</Link>
             </button>
   
-            <button className = "login" onClick={loginClick}>
-              
+            <button className = "login" >
               <Link to="/login">로그인</Link>
             </button>
           </div>

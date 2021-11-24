@@ -1,53 +1,54 @@
 .mju-group{
-  background: white;
-}
-
-.mjuLogof{
-  float: left;
-  margin-left: 2em;
-  margin-top: 1.5em;
-  margin-right: 1em;
+    background: white;
+  }
   
-}
-
-.mjuMain{
-  color: rgb(79, 138, 216);
-  float: left;
-}
-
-.account_result{
-  border-color:rgb(79, 138, 216); 
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border-radius: 15px;
-  margin-left: 2em;
-  margin-top: 2em;
-}
-
-.card_result{
-  border-color:rgb(79, 138, 216); 
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border-radius: 15px;
-  margin-left: 2em;
-  margin-top: 2em;
-}
-
-.createId{
-  margin-top: 3px;
-  margin-right: 2em;
-  border-radius: 15px;
-  float: right;
-}
-
-.login{
-  margin-top: 3px;
-  margin-right: 1em;
-  border-radius: 15px;
-  float: right;
-}
-
+  .mjuLogof{
+    float: left;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    
+  }
+  
+  .mjuMain{
+    color: rgb(79, 138, 216);
+    float: left;
+  }
+  
+  .account_result{
+    border-color:rgb(79, 138, 216); 
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 15px;
+    margin-left: 2em;
+    margin-top: 2em;
+  }
+  
+  .card_result{
+    border-color:rgb(79, 138, 216); 
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 15px;
+    margin-left: 2em;
+    margin-top: 2em;
+  }
+  
+  .createId{
+    margin-top: 3px;
+    margin-right: 2em;
+    border-radius: 15px;
+    float: right;
+  }
+  
+  .login{
+    margin-top: 3px;
+    margin-right: 1em;
+    border-radius: 15px;
+    float: right;
+  }
+  
+  

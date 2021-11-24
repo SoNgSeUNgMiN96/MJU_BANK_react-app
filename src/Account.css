@@ -1,0 +1,46 @@
+.accountMake{
+    border-radius: 15px;
+    margin-top:20px;
+    margin-left:10px;
+   
+    font-size: large;
+    padding: 10px;
+     
+    
+    
+  }
+  .trade{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+  
+  .accountSee{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+  
+  .deposit{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+  
+  .withdraw{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }

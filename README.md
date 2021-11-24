@@ -1,3 +1,7 @@
+## MJU BANK SYSTEM 
+본 프로젝트는 명지은행의 웹 구현 및 데이터베이스의 연동시연을 위한 프로젝트입니다.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

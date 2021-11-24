@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.mju-group{
+  background: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mjuLogof{
+  float: left;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  margin-right: 1em;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mjuMain{
+  color: rgb(79, 138, 216);
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.account_result{
+  border-color:rgb(79, 138, 216); 
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 15px;
+  margin-left: 2em;
+  margin-top: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.card_result{
+  border-color:rgb(79, 138, 216); 
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 15px;
+  margin-left: 2em;
+  margin-top: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.createId{
+  margin-top: 3px;
+  margin-right: 2em;
+  border-radius: 15px;
+  float: right;
 }
+
+.login{
+  margin-top: 3px;
+  margin-right: 1em;
+  border-radius: 15px;
+  float: right;
+}
+

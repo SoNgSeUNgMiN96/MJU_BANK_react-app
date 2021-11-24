@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import mjuLogo from './mjuLogo.png';
 import './App.css';
 
@@ -38,7 +39,8 @@ function Header() {
             </button>
   
             <button className = "login" onClick={loginClick}>
-              로그인
+              
+              <Link to="/login">로그인</Link>
             </button>
           </div>
     );

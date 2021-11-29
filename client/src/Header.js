@@ -3,8 +3,6 @@ import mjuLogo from './mjuLogo.png';
 import './App.css';
 
 function Header() {
-
-    
   
     return (
           <div className = "header">

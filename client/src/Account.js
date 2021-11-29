@@ -7,7 +7,6 @@ function Account() {
         <div className="accountSee">  
          
           <input type="button" className ="accountSee" value="계좌조회"/> <br></br>
-        
           <div>
           <input type="button" className="accountMake" value="계좌개설"/><br></br>
           <input type="button" className="trade" value="거래내역"/><br></br>

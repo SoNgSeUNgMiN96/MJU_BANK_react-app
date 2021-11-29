@@ -1,0 +1,79 @@
+.accountMake{
+    border-radius: 15px;
+    margin-top:20px;
+    margin-left:10px;
+   
+    font-size: large;
+    padding: 10px;
+     
+    
+    
+  }
+  .trade{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+  
+  .accountSee{
+    text-decoration:none;
+    border-radius: 15px;
+    margin-top:20px;
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+  
+  .deposit{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+  
+  .withdraw{
+    border-radius: 15px;
+    margin-top:20px;
+    
+    font-size: large;
+    padding: 10px;
+    margin-left:10px;
+  }
+
+  .sidebtn {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.sidebtn span {
+    display: block;
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    transition: all 0.25s;
+}
+
+.sidebtn span:nth-child(1) {
+    width: 20%;
+    top: 15%;
+}
+
+.sidebtn span:nth-child(2) {
+    top: 30%;
+}
+
+.fromleft{
+    top : 20%;
+    left: 20%;
+}
+
+.left20{
+    margin-left: 20%;
+}

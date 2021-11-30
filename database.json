@@ -1,0 +1,7 @@
+{
+    "host" : "localhost",
+    "user" : "root",
+    "password" : "qpepw9023@",
+    "port" : "3306",
+    "database" : "banking"
+}

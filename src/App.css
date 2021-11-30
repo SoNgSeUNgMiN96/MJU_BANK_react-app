@@ -15,6 +15,22 @@
   float: left;
 }
 
+.blueText{
+  color: rgb(79, 138, 216);
+}
+
+.MainPageDiv{
+  margin-top: 10em;
+}
+
+.telNumf{
+  margin-top: 1.5em;
+  width: 400px;
+  
+  object-fit: cover;
+  float: left;
+}
+
 .account_result{
   border-color:rgb(79, 138, 216); 
   padding-left: 3em;

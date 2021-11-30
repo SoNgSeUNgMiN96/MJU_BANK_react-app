@@ -1,4 +1,5 @@
 import Header from './Header.js'
+import Main from './Main.js'
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="mju-group">
 
         <Header/>
-      
+        <Main/>
   
         <div>
 

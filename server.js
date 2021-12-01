@@ -45,4 +45,22 @@ app.get('/api/viewcard' , (req , res) => {
 
 });
 
+app.post('/api/viewcard2' , (req , res) => {
+
+    console.log(req.body);
+    console.log(req.body['cardId']);
+    const {cardIId,temp} = req.body
+
+    let sql = "SELECT * FROM banking.card where card_id like '"+req.body['cardId']+"'";
+    console.log(sql);
+
+    connection.query(
+        sql,params={},
+        (err,rows, fields) => {
+            res.send(rows);
+        }
+    )
+
+});
+
 app.listen(port , () => console.log(`Listening on port ${port}`));

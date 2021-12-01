@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Card from "./Card";
 import './card.css';
 import {post} from "axios"
-import { response } from 'express';
 
 
 
